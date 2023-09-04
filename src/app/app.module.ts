@@ -31,6 +31,7 @@ import { RequestesPageComponent } from './cinema-page/requestes-page/requestes-p
 import { SendmoiverequestpageComponent } from './cinema-page/sendmoiverequestpage/sendmoiverequestpage.component';
 import { HallPageComponent } from './cinema-page/hall-page/hall-page.component';
 import { AvailableMoviesComponent } from './cinema-page/available-movies/available-movies.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { AvailableMoviesComponent } from './cinema-page/available-movies/availab
     SendmoiverequestpageComponent,
     HallPageComponent,
     AvailableMoviesComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
