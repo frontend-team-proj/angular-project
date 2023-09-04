@@ -1,5 +1,5 @@
 
-import {  Component, Input } from '@angular/core';
+import {  Component } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -7,5 +7,5 @@ import {  Component, Input } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent  {
-// @Input() nav:any[] =[];
+
 }
